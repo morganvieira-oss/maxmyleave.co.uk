@@ -19,7 +19,7 @@ const mozillaHeadline = localFont({
     },
   ],
   variable: "--font-mozilla-headline",
-})
+});
 
 const mozillaText = localFont({
   src: [
@@ -35,7 +35,7 @@ const mozillaText = localFont({
     },
   ],
   variable: "--font-mozilla-text",
-})
+});
 
 export const metadata: Metadata = {
   title: "maxmyleave | home",
@@ -47,15 +47,15 @@ export const metadata: Metadata = {
     siteName: "maxmyleave",
     locale: "en_GB",
     type: "website",
-  }
+  },
 };
 
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f1f5f9" },
     { media: "(prefers-color-scheme: dark)", color: "#0f172a" },
-  ]
-}
+  ],
+};
 
 export default function RootLayout({
   children,
@@ -68,9 +68,7 @@ export default function RootLayout({
         className={`${mozillaHeadline.variable} ${mozillaText.variable} antialiased`}
       >
         <Header />
-        <PageTransition>
-          {children}
-        </PageTransition>
+        <PageTransition>{children}</PageTransition>
         <Footer />
       </body>
     </html>

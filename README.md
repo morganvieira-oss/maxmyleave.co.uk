@@ -49,10 +49,10 @@ npm run dev
 
 ### Other commands
 
-| Command | Description |
-|---|---|
-| `npm run build` | Production build |
-| `npm start` | Run production build locally |
-| `npm run lint` | Lint the codebase |
+| Command           | Description                                  |
+| ----------------- | -------------------------------------------- |
+| `npm run build`   | Production build                             |
+| `npm start`       | Run production build locally                 |
+| `npm run lint`    | Lint the codebase                            |
 | `npm run preview` | Preview the Cloudflare Workers build locally |
-| `npm run deploy` | Deploy to Cloudflare Workers |
+| `npm run deploy`  | Deploy to Cloudflare Workers                 |
