@@ -6,7 +6,7 @@
   </p>
 </p>
 
-> **Note:** This project is not actively maintained. It may break without warning if upstream dependencies or the UK government bank holidays API introduce breaking changes.
+> **Note:** This is a read-only repository — contributions are not accepted. The project is not actively maintained and may break without warning if upstream dependencies or the UK government bank holidays API introduce breaking changes. That said, occasional updates may be made to simplify code or address CVEs as they arise.
 
 <img src="readme-public/landing-page.png" alt="maxmyleave planner screenshot" />
 
