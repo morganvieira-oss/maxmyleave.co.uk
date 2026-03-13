@@ -34,7 +34,7 @@ The planner runs a greedy search over the year to find leave windows that maximi
 - Deployed on [Cloudflare Workers](https://workers.cloudflare.com/) via [@opennextjs/cloudflare](https://github.com/opennextjs/opennextjs-cloudflare)
 - Bank holidays sourced from the [GOV.UK Bank Holidays API](https://www.gov.uk/bank-holidays.json)
 
-## Deliberate tradeoffs
+## Deliberate trade-offs
 
 **Q: Why Cloudflare Workers over Vercel?**<br>
 A: Setup is dead simple. A single `wrangler deploy` and it's live, with no project config, billing setup, or dashboard fiddling needed.
